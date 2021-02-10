@@ -21,7 +21,7 @@ class OrdersTest < ApplicationSystemTestCase
     click_on "Create Order"
 
     assert_text "Order was successfully created"
-    #click_on "Back"
+    click_on "Back"
   end
 
   test "updating a Order" do
@@ -35,7 +35,7 @@ class OrdersTest < ApplicationSystemTestCase
     click_on "Update Order"
 
     assert_text "Order was successfully updated"
-    #click_on "Back"
+    click_on "Back"
   end
 
   test "destroying a Order" do
